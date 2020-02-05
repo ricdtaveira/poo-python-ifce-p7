@@ -1,9 +1,9 @@
-> # Aula-01 
+> # Aula-01 Classes
 
-. Classe
-. Atributo
-. Método
-.. Método Constrtutor
-.. Metodo Acessor
-.. Método Modificador
+- Classe
+- Atributo
+- Método
+-- Método Construtor
+--- Método Acessor
+--- Método Modificador
 
