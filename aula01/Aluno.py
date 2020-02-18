@@ -1,11 +1,13 @@
 class Aluno:
      
-    def __init__(self, matricula, nome, endereco):
+    def __init__(self):
+        pass
+    '''def __init__(self, matricula, nome, endereco):
         self._matricula = matricula
         self._nome = nome
         self.endereco = endereco
         self._disciplinas = []
-        
+     '''   
     def get_matricula(self):
         return self.matricula
     
