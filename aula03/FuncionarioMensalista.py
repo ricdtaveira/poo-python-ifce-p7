@@ -4,9 +4,9 @@ Classe FuncionarioMensalista herda Funcionario.
 FuncionarioMensalista também demonstra programação por diferença.
 """
 
-import aula03.funcionario
+from aula03.funcionario import Funcionario
 
-class FuncionarioMensalista(aula03.funcionario):
+class FuncionarioMensalista(Funcionario):
     
     _faltas = 0
     _valorFalta = 0.0
