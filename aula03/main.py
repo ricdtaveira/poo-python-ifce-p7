@@ -9,3 +9,6 @@ m_emp = aula03.FuncionarioMensalista()
 h_emp = aula03.FuncionarioHorista()
 
 
+"""
+   Comletar o codigo
+   

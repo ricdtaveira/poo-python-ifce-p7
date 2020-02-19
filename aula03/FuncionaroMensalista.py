@@ -19,10 +19,10 @@ class FuncionarioMensalista(aula03.Funcionario):
         return (self._salario - (self._faltas * self._valorFalta))
     
     def adicionafFaltas(self, faltas):
-        self.faltas += faltas
+        self._faltas += faltas
         
     def inicializarFaltas(self):
-        self.faltas=0
+        self._faltas=0
             
     
     
