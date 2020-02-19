@@ -1,14 +1,11 @@
 
- 
-import aula03.FuncionarioComissionado
-import aula03.FuncionarioHorista
-import aula03.FuncionarioMensalista
+  
+from . import FuncionarioComissionado  
+from . import FuncionarioMensalista  
+from . import FuncionarioHorista
 
-c_emp = aula03.FuncionarioComissionado("José", "Almeida", 2000.00, 10.0)
-m_emp = aula03.FuncionarioMensalista()
-h_emp = aula03.FuncionarioHorista()
+c_emp = FuncionarioComissionado("José", "Almeida", 2000.00, 10.0)
+m_emp = FuncionarioMensalista()
+h_emp = FuncionarioHorista()
 
-
-"""
-   Comletar o codigo
-   
+print (c_emp.calcularPagamento())

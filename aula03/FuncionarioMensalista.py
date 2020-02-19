@@ -13,12 +13,12 @@ class FuncionarioMensalista(aula03.Funcionario):
     
     def __init__(self, primeiroNome, ultimoNome, salario, valorFalta):
         super().__init__(primeiroNome, ultimoNome, salario)
-        self.valorFalta = valorFalta
+        self._valorFalta = valorFalta
     
     def calcularPagamento(self):
         return (self._salario - (self._faltas * self._valorFalta))
     
-    def adicionafFaltas(self, faltas):
+    def adicionaFaltas(self, faltas):
         self._faltas += faltas
         
     def inicializarFaltas(self):
