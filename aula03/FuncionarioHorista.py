@@ -13,7 +13,7 @@ class FuncionarioHorista(aula03.Funcionario):
     def __init__(self, primeiroNome, ultimoNome, salario):
         super().__init__(primeiroNome, ultimoNome, salario)
     
-    def addHoras(self, horas):
+    def adicionarHoras(self, horas):
         self._horasTrabalhadas += horas
         
     def inicializarHoras(self):
