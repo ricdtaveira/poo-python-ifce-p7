@@ -4,9 +4,9 @@ Classe FuncionarioHorista herda Funcionario.
 FuncionarioHorista também demonstra programação por diferença.
 """
 
-import aula03.Funcionario
+import aula03.funcionario
 
-class FuncionarioHorista(aula03.Funcionario):
+class FuncionarioHorista(aula03.funcionario):
     
     _horasTrabalhadas = 0
     

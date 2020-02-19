@@ -5,9 +5,9 @@ filha herda de uma classe mãe(atributos e métodos) e adiciona apenas o código
 torna diferente da classe mãe.
 """
 
-import aula03.Funcionario
+import aula03.funcionario
 
-class FuncionarioComissionado(aula03.Funcionario):
+class FuncionarioComissionado(aula03.funcionario):
     
     _comissao = 0.00
     _unidades = 0
