@@ -4,7 +4,7 @@ Classe FuncionarioHorista herda Funcionario.
 FuncionarioHorista também demonstra programação por diferença.
 """
 
-from aula03.funcionario import Funcionario
+from aula03.Funcionario import Funcionario
 
 class FuncionarioHorista(Funcionario):
     
@@ -20,5 +20,5 @@ class FuncionarioHorista(Funcionario):
         self._horasTrabalhadas = 0
         
     def calcularPagamento(self):
-        return (self.salario * self.horas)
+        return (self._salario * self._horasTrabalhadas)
         

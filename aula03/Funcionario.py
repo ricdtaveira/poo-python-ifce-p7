@@ -48,4 +48,4 @@ class Funcionario(abc.ABC):
     
     def imprimirCheckPagamento(self):
         nomeCompleto = self._ultimoNome + ", " + self._primeiroNome
-        return ("Pagamento= " +  nomeCompleto + " R$ " + self.calcularPagamento())
+        return ("Pagamento= " +  nomeCompleto + " R$ " + str(self.calcularPagamento()))

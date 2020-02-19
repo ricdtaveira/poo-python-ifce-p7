@@ -4,7 +4,7 @@ Classe FuncionarioMensalista herda Funcionario.
 FuncionarioMensalista também demonstra programação por diferença.
 """
 
-from aula03.funcionario import Funcionario
+from aula03.Funcionario import Funcionario
 
 class FuncionarioMensalista(Funcionario):
     
