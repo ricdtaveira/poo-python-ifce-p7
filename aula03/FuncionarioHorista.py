@@ -4,7 +4,7 @@ Classe FuncionarioHorista herda Funcionario.
 FuncionarioHorista também demonstra programação por diferença.
 """
 
-from aula03.Funcionario import Funcionario
+from Funcionario import Funcionario
 
 class FuncionarioHorista(Funcionario):
     
