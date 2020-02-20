@@ -1,4 +1,5 @@
 """
+Módulo FuncionarioMensalista.
 Classe FuncionarioMensalista herda Funcionario.
 É uma SubClasse de Funcionario.
 FuncionarioMensalista também demonstra programação por diferença.
@@ -18,7 +19,7 @@ class FuncionarioMensalista(Funcionario):
     def calcularPagamento(self):
         return (self._salario - (self._faltas * self._valorFalta))
     
-    def adicionaFaltas(self, faltas):
+    def adicionarFaltas(self, faltas):
         self._faltas += faltas
         
     def inicializarFaltas(self):

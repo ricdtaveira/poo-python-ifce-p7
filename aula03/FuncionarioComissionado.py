@@ -1,8 +1,9 @@
 """
-Empregado Comissionado demonstra herança de atributos e métodos de Empregado.
-Empregado Comissionado também demonstra programação por diferença.Ou seja, a classe
-filha herda de uma classe mãe(atributos e métodos) e adiciona apenas o código que a
-torna diferente da classe mãe.
+Módulo FuncionarioComissionado
+Classe EmpregadoComissionado demonstra herança de atributos e métodos de Empregado.
+EmpregadoComissionado também demonstra programação por diferença. Ou seja, a classe
+filha herda de uma classe mãe(atributos e métodos) e adiciona apenas o código que
+a torna diferente da classe mãe.
 """
 
 from Funcionario import Funcionario

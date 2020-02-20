@@ -1,4 +1,5 @@
 """
+Módulo FuncionarioHorista
 Classe FuncionarioHorista herda Funcionario.
 É uma SubClasse de Funcionario.
 FuncionarioHorista também demonstra programação por diferença.
