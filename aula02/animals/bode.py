@@ -1,4 +1,5 @@
 # bode.py
 
-def speak():
-    print("béééé!")
+class Bode:
+    def fala(self): 
+        print("beeee!")

@@ -1,3 +1,5 @@
-import animals.bode
+from  animals.bode import Bode
 
-bode.speak()
+# instanciar um bode
+b1=Bode()
+b1.fala()
