@@ -5,7 +5,7 @@ Classe Manobrista
 from veiculo import IVeiculo
 
 class Manobrista():    
-    estaciona(self, v IVeiculo):         
+    def estaciona(self, v):         
         v.liga()
         v.acelera()
         v.viraParaDireita()

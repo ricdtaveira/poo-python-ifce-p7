@@ -10,18 +10,18 @@ class Aviao(IVeiculo):
         print("Ligou Aviao")
     # mostrará uma mensagem que virou a direita    	 
     def viraParaDireita(self):
-        print("Aviao virou a Direita!)")
+        print("Aviao virou a Direita!")
     # mostrará uma mensagem que virou a esquerda 
     def viraParaEsquerda(self):
-        print("Avião virou para a Direita")
+        print("Aviao virou para a Esquerda!")
     # mostrará uma mensagem que acelerou	 
     def acelera(self):  
-        print("Avião acelerou !")
+        print("Aviao acelerou!")
     # mostrará uma mensagem que freiou
     def freia(self):
-        print("Avião freiou!")     
+        print("Aviao freiou!")     
     # mostrará uma mensagem que desligou  
     def desliga(self):
-        print("Aviao Desligou!")
+        print("Aviao Desligou!\n")
     
 

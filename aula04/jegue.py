@@ -10,17 +10,17 @@ class Jegue(IVeiculo):
         print("Ligou Jegue")
     # mostrará uma mensagem que virou a direita    	 
     def viraParaDireita(self):
-        print("Jegue virou a Direita!)")
+        print("Jegue virou a Direita!")
     # mostrará uma mensagem que virou a esquerda 
     def viraParaEsquerda(self):
-        print("Jegue virou para a Direita")
+        print("Jegue virou para a Esquerda!")
     # mostrará uma mensagem que acelerou	 
     def acelera(self):  
-        print("Jegue acelerou !")
+        print("Jegue acelerou!")
     # mostrará uma mensagem que freiou
     def freia(self):
         print("Jegue freiou!")     
     # mostrará uma mensagem que desligou  
     def desliga(self):
-        print("Jegue Desligou!")
+        print("Jegue Desligou!\n")
     

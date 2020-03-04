@@ -12,9 +12,9 @@ class IVeiculo(abc.ABC):
 	@abc.abstractmethod
 	def viraParaEsquerda(self):pass # mostrará uma mensagem que virou a esquerda
 	@abc.abstractmethod
-	def acelera(self):pass # mostrará uma mensagem que acelerou 
-    @abc.abstractmethod 
-    def freia(self):pass # mostrará uma mensagem que freiou
-    @abc.abstractmethod
-    def desliga(self):pass # mostrará uma mensagem que desligou 
+	def acelera(self):pass # mostrará uma mensagem que acelerou
+	@abc.abstractmethod
+	def freia(self):pass # mostrará uma mensagem que freiou
+	@abc.abstractmethod
+	def desliga(self):pass # mostrará uma mensagem que desligou 
 
