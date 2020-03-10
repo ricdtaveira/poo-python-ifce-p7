@@ -15,7 +15,7 @@
 
    3.3 Método Modificador altera o valor de atributos privados.
 
-Referencias:
+Referências:
 1) O Tutorial Python
    https://docs.python.org/pt-br/3/tutorial/index.html
 
