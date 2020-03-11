@@ -9,6 +9,4 @@
 6. Atributos definem características de uma classe. Atributos podem ser privados ou
    publicos.
 7. Método são funcionalidades associadas a uma classe.
-8. Método Construtor instancia na memoria as estruturas de dados de um objeto na
-   memória.
-   
+8. Método Construtor instancia na memoria os atributos de um objeto na memória.

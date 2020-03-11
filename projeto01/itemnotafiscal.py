@@ -4,4 +4,4 @@
 """
 
 class ItemNotaFiscal():
-    
+    pass

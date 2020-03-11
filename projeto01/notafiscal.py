@@ -4,5 +4,6 @@
 """
 
 class NotaFiscal():
+    pass
     
     
