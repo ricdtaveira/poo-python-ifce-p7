@@ -12,6 +12,7 @@ class TipoCliente(enum.Enum):
 if __name__ == '__main__':
     print ("Os numeros enum sao: ")
     for tipo in (TipoCliente):
+        print(type(tipo))
         print(tipo) 
     
-        
+  
