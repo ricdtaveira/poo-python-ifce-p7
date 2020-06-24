@@ -1,6 +1,14 @@
 """
     Módulo cliente -
     Classe Cliente - 
+    Atributos:
+        _id       - chave primária    - informado
+        _nome     - nome do cliente   - informado
+        _codigo   - codigo do cliente - informado
+        _cnpjcpf  - cnpj ou cpf       - informado
+        _tipo     - tipo do cliente   - informado
+                    (Pessoa Fisica ou Juridica)
+        
 """
 from tipocliente  import TipoCliente
 
@@ -13,10 +21,11 @@ class Cliente():
         self._tipo = tipo
         
     def str(self):
-        pass
+        string="\nId={4} Codigo={3} Nome={2} CNPJ/CPF={1} Tipo={0}".format(self._tipo, self._cnpjcpf, self._codigo, self._nome, self._id)
+        return string
     
 if __name__ == '__main__':
-    cliente=Cliente(1, "Jose Maria", 1200, "200.100.345-34", TipoCliente.PESSOA_FISICA)
+    cliente=Cliente(1, "Jose Maria", 100, '200.100.345-34', 1)
     print(cliente.str())
         
     

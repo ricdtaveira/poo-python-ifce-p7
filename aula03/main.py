@@ -4,8 +4,8 @@ Módulo main.py - tem a função principal que executa as funcionalidades
 """
 
 from FuncionarioComissionado import FuncionarioComissionado
-from FuncionarioHorista import FuncionarioHorista
-from FuncionarioMensalista import FuncionarioMensalista
+from FuncionarioHorista      import FuncionarioHorista
+from FuncionarioMensalista   import FuncionarioMensalista
 
 def main():
     c_emp = FuncionarioComissionado("José", "Almeida", 2000.00, 10.0)
