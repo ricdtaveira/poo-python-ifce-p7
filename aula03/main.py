@@ -3,9 +3,9 @@ Módulo main.py - tem a função principal que executa as funcionalidades
                 nas classes da hierarquia de Herança
 """
 
-from FuncionarioComissionado import FuncionarioComissionado
-from FuncionarioHorista      import FuncionarioHorista
-from FuncionarioMensalista   import FuncionarioMensalista
+from funcionarioComissionado import FuncionarioComissionado
+from funcionarioHorista      import FuncionarioHorista
+from funcionarioMensalista   import FuncionarioMensalista
 
 def main():
     c_emp = FuncionarioComissionado("José", "Almeida", 2000.00, 10.0)

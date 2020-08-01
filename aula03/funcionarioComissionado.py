@@ -6,7 +6,7 @@ filha herda de uma classe mãe(atributos e métodos) e adiciona apenas o código
 a torna diferente da classe mãe.
 """
 
-from Funcionario import Funcionario
+from funcionario import Funcionario
 
 class FuncionarioComissionado(Funcionario):
 

@@ -33,6 +33,9 @@ def main():
     nf.calcularNotaFiscal()
     
     print('Valor Nota Fiscal=' + nf.valorNota)
+    
+    nf.imprimirNotaFiscal()
+
 
 if __name__ == '__main__':
     main()

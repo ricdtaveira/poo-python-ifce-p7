@@ -1,13 +1,11 @@
 class Aluno:
      
-    def __init__(self):
-        pass
-    '''def __init__(self, matricula, nome, endereco):
-        self._matricula = matricula
-        self._nome = nome
+    def __init__(self, matricula, nome, endereco):
+        self.matricula = matricula
+        self.nome = nome
         self.endereco = endereco
-        self._disciplinas = []
-     '''   
+        self.disciplinas=[]
+       
     def get_matricula(self):
         return self.matricula
     
@@ -19,7 +17,7 @@ class Aluno:
     
     def get_disciplinas(self):
         return self.disciplinas
-    
+
     def set_matricula(self, matricula):
         self.matricula = matricula
         
@@ -29,6 +27,8 @@ class Aluno:
     def set_endereco(self, endereco):
         self.endereco = endereco
     
+    def toString(self):         
+        return (str(self.matricula) + " " + self.nome + " " + self.endereco)
     
     
     

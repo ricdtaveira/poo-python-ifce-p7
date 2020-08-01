@@ -12,14 +12,13 @@ from produto import Produto
 
 class ItemNotaFiscal():
     
-    _valor = 0.0
-    _produto = Produto()
-    
-    def _init_(self, id, sequencial, quantidade, produto):
+  
+    def __init__(self, id, sequencial, quantidade, produto):
         self._id=id
         self._sequencial=sequencial
         self._quantidade=quantidade
         self._produto=produto
+        self._valor=0.0
              
     def str(self):
         string="\nId={3} Sequencial={2} Quantidade={1} Produto={0}".format(self._produto.getDescricao(), self._quantidade, self._sequencial, self._id)
@@ -27,7 +26,7 @@ class ItemNotaFiscal():
     
         
 if __name__ == '__main__':
-    produto=Produto(1,100,'Arroz', 5.5) 
+    produto = Produto(1,100,'Arroz', 5.5) 
     item=ItemNotaFiscal(1, 1, 12, produto)
     print(item.str())
         
