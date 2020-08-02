@@ -10,6 +10,7 @@
                     (Pessoa Fisica ou Juridica)
         
 """
+
 from tipocliente  import TipoCliente
 
 class Cliente():
@@ -25,7 +26,7 @@ class Cliente():
         return string
     
 if __name__ == '__main__':
-    cliente=Cliente(1, "Jose Maria", 100, '200.100.345-34', 1)
+    cliente=Cliente(1, "Jose Maria", 100, '200.100.345-34', TipoCliente.PESSOA_FISICA)
     print(cliente.str())
         
     

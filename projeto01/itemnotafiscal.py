@@ -18,10 +18,17 @@ class ItemNotaFiscal():
         self._sequencial=sequencial
         self._quantidade=quantidade
         self._produto=produto
-        self._valor=0.0
-             
+        self._descricao=self._produto.getDescricao()
+        self._valorUnitario=self._produto.getValorUnitario()
+        self._valorItem=float(self._quantidade * self._valorUnitario)
+      
     def str(self):
-        string="\nId={3} Sequencial={2} Quantidade={1} Produto={0}".format(self._produto.getDescricao(), self._quantidade, self._sequencial, self._id)
+        string="\nId={5} Sequencial={4} Quantidade={3} Produto={2} Valor Unitario={1} Valor Item={0}".format(self._valorItem,
+                                                                                                             self._valorUnitario,
+                                                                                                             self._descricao, 
+                                                                                                             self._quantidade, 
+                                                                                                             self._sequencial, 
+                                                                                                             self._id)
         return string
     
         
