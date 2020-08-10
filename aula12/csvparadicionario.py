@@ -10,7 +10,7 @@ with open(arquivo, mode='r') as csv_file:
     # uma coleção de dicionários. 
     # Cada objeto row lido de csv_reader possui uma linha.
     # Cada linha será um conjunto chave e valor.
-    # chave é o nome da colulaself.
+    # chave é o nome da colula.
     # valor é o valor contido na coluna.
     # 
     csv_reader = csv.DictReader(csv_file)
