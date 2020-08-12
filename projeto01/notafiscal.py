@@ -37,12 +37,8 @@ class NotaFiscal():
         for item in self._itens:
             valor =+ item._valorItem
         self.valorNota=valor
-        
-    def imprimirNotaFiscal(self):
-        // Percorrer a coleção de itens
-        // mostrar o valor total 
+     
+    def imprimirNotaFiscal(self):       
         pass
     
     
-        
-        

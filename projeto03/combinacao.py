@@ -1,7 +1,7 @@
 # Function which returns subset or r length from n 
 from itertools import combinations 
   
-def rSubset(arr, r): 
+def combinacao(arr, r): 
   
     # return list of all subsets of length r 
     # to deal with duplicate subsets use  
@@ -12,7 +12,7 @@ def rSubset(arr, r):
 if __name__ == "__main__": 
     arr = ["Joao", "Maria", "Jose", "Ana", "Paulo"] 
     r = 3
-    lista=rSubset (arr, r) 
+    lista=combinacao(arr, r) 
     num=1
     for x in lista:
         print (num, x)
