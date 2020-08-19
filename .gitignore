@@ -1,9 +1,9 @@
-# Byte-compiled / optimized / DLL files
+compiled# Byte-compiled / optimized / DLL files
 __pycache__/
 .idea/
 *.py[cod]
 *$py.class
-
+venv/
 # C extensions
 *.so
 
