@@ -1,4 +1,4 @@
-> # Aula-03 Herança / Classe Abstrata / Super-Classe / Sub-Classe / Polimorfismo /   Reescrita de Método / Método Constrtutor com Super()
+> # Aula-03 Herança / Classe Abstrata / Super-Classe / Sub-Classe / Polimorfismo /   Reescrita de Método / Método Construtor com Super()
 
 1. Herança é uma funcionalidade implementada em Linguagens Orientadas a Objeto cujo principal objetivo é prover um mecanismo de reaproveitamento de código usando o conceito de Herança.
 2. Classe Abstrata é uma classe que é usada especificamente para compor uma hierarquia de herança. Não é possível instanciar um objeto de uma classe abstrata.
