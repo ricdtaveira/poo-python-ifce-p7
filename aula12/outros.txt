@@ -1,2 +1,1 @@
-"Maria Emanuela","Informatica","Novembro"
-"Erica Rafaela","Recursos Humanos","Dezembro"
+"Maria Emanuela","Informatica, Matriz","Novembro""Erica Rafaela","Recursos Humanos,  Maracanau","Dezembro""Jonas Freire","Producao, Caucaia","Janeiro"

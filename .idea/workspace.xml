@@ -2,16 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74bed306-2629-4c42-a5e9-f34bee8db02f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/aula13/alura01.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aula13/barra.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aula13/barra2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aula13/pizza.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aula13/scatter.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aula13/scatter2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aula13/scatter3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aula13/subplot.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aula13/subplot2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aula12/GeradosExcell.CSV" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aula16/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aula16/teste01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aula16/teste02.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aula16/teste03.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aula12/outros.txt" beforeDir="false" afterPath="$PROJECT_DIR$/aula12/outros.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +30,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="C:/Program Files/nodejs/node" />
@@ -40,73 +38,7 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.scatter3">
-    <configuration name="alura01" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="poo-python-ifce-p7" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/aula13" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/aula13/alura01.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="barra2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="poo-python-ifce-p7" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/aula13" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/aula13/barra2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="linear" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="poo-python-ifce-p7" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/aula13" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/aula13/linear.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python tests.Unittests in teste03.py">
     <configuration name="pizza" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="poo-python-ifce-p7" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -151,13 +83,65 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="teste01" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="poo-python-ifce-p7" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/aula16" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/aula16/teste01.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in teste02.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="poo-python-ifce-p7" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/aula16" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/aula16/teste02.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in teste03.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="poo-python-ifce-p7" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/aula16" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/aula16/teste03.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests in teste03.py" />
+        <item itemvalue="Python tests.Unittests in teste02.py" />
+        <item itemvalue="Python.teste01" />
         <item itemvalue="Python.scatter3" />
         <item itemvalue="Python.pizza" />
-        <item itemvalue="Python.barra2" />
-        <item itemvalue="Python.alura01" />
-        <item itemvalue="Python.linear" />
       </list>
     </recent_temporary>
   </component>
@@ -173,45 +157,57 @@
       <updated>1582153883566</updated>
       <workItem from="1596312810009" duration="1751000" />
       <workItem from="1597083023865" duration="7085000" />
+      <workItem from="1605020401456" duration="19000" />
+      <workItem from="1608219664948" duration="743000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state width="1286" height="141" key="GridCell.Tab.0.bottom" timestamp="1597095241450">
+    <state width="1323" height="215" key="GridCell.Tab.0.bottom" timestamp="1608220359522">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="141" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1597095241450" />
-    <state width="1286" height="141" key="GridCell.Tab.0.center" timestamp="1597095241450">
+    <state width="1323" height="215" key="GridCell.Tab.0.bottom/-1366.0.1366.728/0.0.1366.728@0.0.1366.728" timestamp="1608220359522" />
+    <state width="1323" height="215" key="GridCell.Tab.0.center" timestamp="1608220359522">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="141" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1597095241450" />
-    <state width="1286" height="141" key="GridCell.Tab.0.left" timestamp="1597095241449">
+    <state width="1323" height="215" key="GridCell.Tab.0.center/-1366.0.1366.728/0.0.1366.728@0.0.1366.728" timestamp="1608220359522" />
+    <state width="1323" height="215" key="GridCell.Tab.0.left" timestamp="1608220359522">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="141" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1597095241449" />
-    <state width="1286" height="141" key="GridCell.Tab.0.right" timestamp="1597095241450">
+    <state width="1323" height="215" key="GridCell.Tab.0.left/-1366.0.1366.728/0.0.1366.728@0.0.1366.728" timestamp="1608220359522" />
+    <state width="1323" height="215" key="GridCell.Tab.0.right" timestamp="1608220359522">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1286" height="141" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1597095241450" />
-    <state x="184" y="9" key="SettingsEditor" timestamp="1596313047038">
+    <state width="1323" height="215" key="GridCell.Tab.0.right/-1366.0.1366.728/0.0.1366.728@0.0.1366.728" timestamp="1608220359522" />
+    <state x="282" y="108" key="Vcs.Push.Dialog.v2" timestamp="1608219756339">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1596313047038" />
+    <state x="282" y="108" key="Vcs.Push.Dialog.v2/-1366.0.1366.728/0.0.1366.728@0.0.1366.728" timestamp="1608219756339" />
+    <state x="499" y="289" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1608219728809">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="499" y="289" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1366.0.1366.728/0.0.1366.728@0.0.1366.728" timestamp="1608219728809" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/poo_python_ifce_p7$main.coverage" NAME="main Coverage Results" MODIFIED="1597083361120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aula03" />
+    <SUITE FILE_PATH="coverage/poo_python_ifce_p7$alura01.coverage" NAME="alura01 Coverage Results" MODIFIED="1597088343089" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aula13" />
+    <SUITE FILE_PATH="coverage/poo_python_ifce_p7$barra2.coverage" NAME="barra2 Coverage Results" MODIFIED="1597089443679" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aula13" />
+    <SUITE FILE_PATH="coverage/poo_python_ifce_p7$Unittests_in_teste02_py.coverage" NAME="Unittests in teste02.py Coverage Results" MODIFIED="1608220359348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aula16" />
+    <SUITE FILE_PATH="coverage/poo_python_ifce_p7$Unittests_in_teste03_py.coverage" NAME="Unittests in teste03.py Coverage Results" MODIFIED="1608220417334" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aula16" />
+    <SUITE FILE_PATH="coverage/poo_python_ifce_p7$linear.coverage" NAME="linear Coverage Results" MODIFIED="1597085851371" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aula13" />
+    <SUITE FILE_PATH="coverage/poo_python_ifce_p7$subplot.coverage" NAME="subplot Coverage Results" MODIFIED="1597085392296" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aula13" />
     <SUITE FILE_PATH="coverage/poo_python_ifce_p7$scatter2.coverage" NAME="scatter2 Coverage Results" MODIFIED="1597085289802" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aula13" />
     <SUITE FILE_PATH="coverage/poo_python_ifce_p7$pizza.coverage" NAME="pizza Coverage Results" MODIFIED="1597089803056" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aula13" />
     <SUITE FILE_PATH="coverage/poo_python_ifce_p7$subplot2.coverage" NAME="subplot2 Coverage Results" MODIFIED="1597085509197" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aula13" />
-    <SUITE FILE_PATH="coverage/poo_python_ifce_p7$alura01.coverage" NAME="alura01 Coverage Results" MODIFIED="1597088343089" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aula13" />
-    <SUITE FILE_PATH="coverage/poo_python_ifce_p7$barra2.coverage" NAME="barra2 Coverage Results" MODIFIED="1597089443679" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aula13" />
-    <SUITE FILE_PATH="coverage/poo_python_ifce_p7$scatter3.coverage" NAME="scatter3 Coverage Results" MODIFIED="1597090495058" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aula13" />
+    <SUITE FILE_PATH="coverage/poo_python_ifce_p7$scatter3.coverage" NAME="scatter3 Coverage Results" MODIFIED="1608219689027" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aula13" />
     <SUITE FILE_PATH="coverage/poo_python_ifce_p7$scatter.coverage" NAME="scatter Coverage Results" MODIFIED="1597085180048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aula13" />
     <SUITE FILE_PATH="coverage/poo_python_ifce_p7$barra.coverage" NAME="barra Coverage Results" MODIFIED="1597085634184" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aula13" />
-    <SUITE FILE_PATH="coverage/poo_python_ifce_p7$linear.coverage" NAME="linear Coverage Results" MODIFIED="1597085851371" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aula13" />
-    <SUITE FILE_PATH="coverage/poo_python_ifce_p7$subplot.coverage" NAME="subplot Coverage Results" MODIFIED="1597085392296" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aula13" />
+    <SUITE FILE_PATH="coverage/poo_python_ifce_p7$teste01.coverage" NAME="teste01 Coverage Results" MODIFIED="1608220271731" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aula16" />
   </component>
 </project>
