@@ -8,7 +8,7 @@ app.config.from_object(DevConfig)
 
 @app.route('/')
 def index():
-    return 'Index Page'
+    return '<h1>Index Page</h1>'
 
 @app.route('/hello')
 def hello():
@@ -35,14 +35,13 @@ def show_post(post_id):
 @app.route('/path/<path:subpath>')
 def show_subpath(subpath):
     # show the subpath after /path/
-    return 'Subpath %s' % escape(subpath)
+    return '<h2>Subpath %s</h2>' % escape(subpath)
 
 with app.test_request_context():
     print(url_for('index'))
     print(url_for('login'))
     print(url_for('login', next='/'))
     print(url_for('profile', username='Zé Mané'))
-
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0')
