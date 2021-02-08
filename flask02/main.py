@@ -32,7 +32,7 @@ class User(db.Model):
     def __repr__(self):
         # formats what is shown in the shell when print is
         # called on it
-        return '<User {}>'.format(self.username)
+        return '<Usuário {}>'.format(self.username)
 
 #Define uma Tabela Post
 class Post(db.Model):

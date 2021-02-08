@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="74bed306-2629-4c42-a5e9-f34bee8db02f" name="Default" comment="Alteração em 04-02-2021">
+    <list default="true" id="74bed306-2629-4c42-a5e9-f34bee8db02f" name="Default" comment="Alteração em 08-02-2021">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask02/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask02/config.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/flask02/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask02/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -174,7 +173,7 @@
       <workItem from="1612362230698" duration="240000" />
       <workItem from="1612362489168" duration="6891000" />
       <workItem from="1612449733406" duration="9013000" />
-      <workItem from="1612802775747" duration="5187000" />
+      <workItem from="1612802775747" duration="8479000" />
     </task>
     <task id="LOCAL-00001" summary="Alteração em 17-12-2020">
       <created>1608220501072</created>
@@ -218,7 +217,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612464519433</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Alteração em 08-02-2021">
+      <created>1612811217833</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1612811217833</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -229,33 +235,34 @@
     <MESSAGE value="Alteração em 17-12-2020" />
     <MESSAGE value="Alteração em 03-02-2021" />
     <MESSAGE value="Alteração em 04-02-2021" />
-    <option name="LAST_COMMIT_MESSAGE" value="Alteração em 04-02-2021" />
+    <MESSAGE value="Alteração em 08-02-2021" />
+    <option name="LAST_COMMIT_MESSAGE" value="Alteração em 08-02-2021" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="310" y="0" key="CommitChangelistDialog2" timestamp="1612464516834">
+    <state x="310" y="0" key="CommitChangelistDialog2" timestamp="1612811213993">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="310" y="0" key="CommitChangelistDialog2/-1366.0.1366.728/0.0.1366.728@0.0.1366.728" timestamp="1612464516834" />
-    <state width="1323" height="151" key="GridCell.Tab.0.bottom" timestamp="1612807798595">
+    <state x="310" y="0" key="CommitChangelistDialog2/-1366.0.1366.728/0.0.1366.728@0.0.1366.728" timestamp="1612811213993" />
+    <state width="1323" height="276" key="GridCell.Tab.0.bottom" timestamp="1612814922640">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="151" key="GridCell.Tab.0.bottom/-1366.0.1366.728/0.0.1366.728@0.0.1366.728" timestamp="1612807798595" />
-    <state width="1323" height="151" key="GridCell.Tab.0.center" timestamp="1612807798595">
+    <state width="1323" height="276" key="GridCell.Tab.0.bottom/-1366.0.1366.728/0.0.1366.728@0.0.1366.728" timestamp="1612814922640" />
+    <state width="1323" height="276" key="GridCell.Tab.0.center" timestamp="1612814922639">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="151" key="GridCell.Tab.0.center/-1366.0.1366.728/0.0.1366.728@0.0.1366.728" timestamp="1612807798595" />
-    <state width="1323" height="151" key="GridCell.Tab.0.left" timestamp="1612807798595">
+    <state width="1323" height="276" key="GridCell.Tab.0.center/-1366.0.1366.728/0.0.1366.728@0.0.1366.728" timestamp="1612814922639" />
+    <state width="1323" height="276" key="GridCell.Tab.0.left" timestamp="1612814922639">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="151" key="GridCell.Tab.0.left/-1366.0.1366.728/0.0.1366.728@0.0.1366.728" timestamp="1612807798595" />
-    <state width="1323" height="151" key="GridCell.Tab.0.right" timestamp="1612807798595">
+    <state width="1323" height="276" key="GridCell.Tab.0.left/-1366.0.1366.728/0.0.1366.728@0.0.1366.728" timestamp="1612814922639" />
+    <state width="1323" height="276" key="GridCell.Tab.0.right" timestamp="1612814922639">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="151" key="GridCell.Tab.0.right/-1366.0.1366.728/0.0.1366.728@0.0.1366.728" timestamp="1612807798595" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1612464529830">
+    <state width="1323" height="276" key="GridCell.Tab.0.right/-1366.0.1366.728/0.0.1366.728@0.0.1366.728" timestamp="1612814922639" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1612811229530">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/-1366.0.1366.728/0.0.1366.728@0.0.1366.728" timestamp="1612464529830" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/-1366.0.1366.728/0.0.1366.728@0.0.1366.728" timestamp="1612811229530" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/poo_python_ifce_p7$main.coverage" NAME="main Coverage Results" MODIFIED="1612461106483" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/flask01" />
@@ -274,6 +281,6 @@
     <SUITE FILE_PATH="coverage/poo_python_ifce_p7$scatter.coverage" NAME="scatter Coverage Results" MODIFIED="1597085180048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aula13" />
     <SUITE FILE_PATH="coverage/poo_python_ifce_p7$barra.coverage" NAME="barra Coverage Results" MODIFIED="1597085634184" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aula13" />
     <SUITE FILE_PATH="coverage/poo_python_ifce_p7$teste01.coverage" NAME="teste01 Coverage Results" MODIFIED="1608223839968" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aula16" />
-    <SUITE FILE_PATH="coverage/poo_python_ifce_p7$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1612807791090" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/flask02" />
+    <SUITE FILE_PATH="coverage/poo_python_ifce_p7$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1612814922625" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/flask02" />
   </component>
 </project>
