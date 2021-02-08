@@ -18,7 +18,9 @@ tags = db.Table(
 )
 
 
+# Define uma Tabela User
 class User(db.Model):
+    __tablename__ = 'TB_USER'
     id = db.Column(db.Integer(), primary_key=True)
     username = db.Column(db.String(255), nullable=False, index=True, unique=True)
     password = db.Column(db.String(255))
@@ -32,7 +34,7 @@ class User(db.Model):
         # called on it
         return '<User {}>'.format(self.username)
 
-
+#Define uma Tabela Post
 class Post(db.Model):
     id = db.Column(db.Integer(), primary_key=True)
     title = db.Column(db.String(255), nullable=False)
@@ -81,7 +83,7 @@ class Tag(db.Model):
 
 @app.route('/')
 def home():
-    result = "<h1>Tables</h1><br><ul>"
+    result = "<h1>Tabelas</h1><br><ul>"
     for table in db.metadata.tables.items():
         result += "<li>%s</li>" % str(table)
     result += "</ul>"
