@@ -12,9 +12,9 @@ db = SQLAlchemy(app)
 #migrate = Migrate(app, db)
 
 tags = db.Table(
-    'post_tags',
-    db.Column('post_id', db.Integer, db.ForeignKey('post.id')),
-    db.Column('tag_id', db.Integer, db.ForeignKey('tag.id'))
+    'TB_POST_TAGS',
+    db.Column('post_id', db.Integer, db.ForeignKey('TB_POST.id')),
+    db.Column('tag_id', db.Integer, db.ForeignKey('TB_TAG.id'))
 )
 
 
@@ -36,11 +36,12 @@ class User(db.Model):
 
 #Define uma Tabela Post
 class Post(db.Model):
+    __tablename__ = 'TB_POST'
     id = db.Column(db.Integer(), primary_key=True)
     title = db.Column(db.String(255), nullable=False)
     text = db.Column(db.Text())
     publish_date = db.Column(db.DateTime(), default=datetime.datetime.now)
-    user_id = db.Column(db.Integer(), db.ForeignKey('user.id'))
+    user_id = db.Column(db.Integer(), db.ForeignKey('TB_USER.id'))
     comments = db.relationship(
         'Comment',
         backref='post',
@@ -60,17 +61,19 @@ class Post(db.Model):
 
 
 class Comment(db.Model):
+    __tablename__ = 'TB_COMMENT'
     id = db.Column(db.Integer(), primary_key=True)
     name = db.Column(db.String(255), nullable=False)
     text = db.Column(db.Text(), nullable=False)
     date = db.Column(db.DateTime(), default=datetime.datetime.now)
-    post_id = db.Column(db.Integer(), db.ForeignKey('post.id'))
+    post_id = db.Column(db.Integer(), db.ForeignKey('TB_POST.id'))
 
     def __repr__(self):
         return "<Comment '{}'>".format(self.text[:15])
 
 
 class Tag(db.Model):
+    __tablename__ = 'TB_TAG'
     id = db.Column(db.Integer(), primary_key=True)
     title = db.Column(db.String(255), nullable=False, unique=True)
 
