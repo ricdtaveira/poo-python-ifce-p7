@@ -9,7 +9,7 @@ app = Flask(__name__)
 app.config.from_object(DevConfig)
 
 db = SQLAlchemy(app)
-migrate = Migrate(app, db)
+#migrate = Migrate(app, db)
 
 tags = db.Table(
     'post_tags',
@@ -89,5 +89,21 @@ def home():
     result += "</ul>"
     return result
 
+@app.route('/usuario/add/')
+def addUsuario():
+    pass
+
+@app.route('/usuario/del/')
+def delUsuario():
+    pass
+
+@app.route('/usuario/show/')
+def showUsario():
+    pass
+
+
+
 if __name__ == '__main__':
+    db.create_all()
+
     app.run()
