@@ -181,7 +181,8 @@
       <workItem from="1612362489168" duration="6891000" />
       <workItem from="1612449733406" duration="9013000" />
       <workItem from="1612802775747" duration="13100000" />
-      <workItem from="1612879920160" duration="1858000" />
+      <workItem from="1612879920160" duration="1904000" />
+      <workItem from="1613061467240" duration="3491000" />
     </task>
     <task id="LOCAL-00001" summary="Alteração em 17-12-2020">
       <created>1608220501072</created>
@@ -253,7 +254,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612880816126</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Alteração em 09-02-2021">
+      <created>1612896754878</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1612896754878</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -280,7 +288,7 @@
     <SUITE FILE_PATH="coverage/poo_python_ifce_p7$main__2_.coverage" NAME="main (2) Coverage Results" MODIFIED="1612827643862" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/flask03" />
     <SUITE FILE_PATH="coverage/poo_python_ifce_p7$teste.coverage" NAME="teste Coverage Results" MODIFIED="1612287923533" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercicio04" />
     <SUITE FILE_PATH="coverage/poo_python_ifce_p7$scatter3.coverage" NAME="scatter3 Coverage Results" MODIFIED="1608219689027" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aula13" />
-    <SUITE FILE_PATH="coverage/poo_python_ifce_p7$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1612880405242" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/flask02" />
+    <SUITE FILE_PATH="coverage/poo_python_ifce_p7$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1613064622089" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/flask02" />
     <SUITE FILE_PATH="coverage/poo_python_ifce_p7$pizza.coverage" NAME="pizza Coverage Results" MODIFIED="1597089803056" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aula13" />
     <SUITE FILE_PATH="coverage/poo_python_ifce_p7$Unittests_in_teste02_py.coverage" NAME="Unittests in teste02.py Coverage Results" MODIFIED="1608224209420" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aula16" />
     <SUITE FILE_PATH="coverage/poo_python_ifce_p7$alura01.coverage" NAME="alura01 Coverage Results" MODIFIED="1597088343089" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aula13" />

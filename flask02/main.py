@@ -26,8 +26,9 @@ class User(db.Model):
     password = db.Column(db.String(255))
     posts = db.relationship('Post', backref='user', lazy='subquery')
 
-    def __init__(self, username):
+    def __init__(self, username, password):
         self.username = username
+        self.password = password
 
     def __repr__(self):
         # formats what is shown in the shell when print is
@@ -94,15 +95,23 @@ def home():
 
 @app.route('/usuario/add/')
 def addUsuario():
-    pass
+    admin = User(username='admin', password='123456')
+    guest = User(username='guest', password='654321')
+    db.session.add(admin)
+    db.session.add(guest)
+    db.session.commit()
+    result = "Usuario Adicionado"
+    return result
 
 @app.route('/usuario/del/')
 def delUsuario():
     pass
 
+
 @app.route('/usuario/show/')
 def showUsario():
-    pass
+
+
 
 if __name__ == '__main__':
     db.create_all()
