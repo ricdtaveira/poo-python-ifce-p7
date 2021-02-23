@@ -95,22 +95,44 @@ def home():
 
 @app.route('/usuario/add/')
 def addUsuario():
+    result = "<h1>Adição de Usuários</h1><br><ul>"
     admin = User(username='admin', password='123456')
     guest = User(username='guest', password='654321')
     db.session.add(admin)
     db.session.add(guest)
     db.session.commit()
-    result = "Usuario Adicionado"
+    result +=  "<p>Usuários Adicionados</p>"
     return result
 
-@app.route('/usuario/del/')
-def delUsuario():
-    pass
+@app.route('/usuario/del/<int:id>')
+def delUsuario(id):
+    result = "<h1>Exclusão de Registro</h1><br><ul>"
+    user=User.query.get(id)
+    db.session.delete(user)
+    db.session.commit()
+    result += '<p>Usuário -> Id=' + str(user.id) + ' Excluido!</p>'
+    return result
 
+@app.route('/usuario/show/<int:id>')
+def showUsario(id):
+    user=User.query.get(id)
+    result = "<h1>Consulta a Registro</h1><br><ul>"
+    result += "<p> Id=" + str(user.id) + "</p>"
+    result += "<p> Nome="  + user.username + "</p>"
+    result += "<p> Senha=" + user.password + "</p>"
+    return result
 
-@app.route('/usuario/show/')
-def showUsario():
-
+@app.route('/usuarios')
+def showUsarios():
+    users=User.query.order_by(User.username).all()
+    result=  '<h1>Usuários</h1><br><ul>'
+    for user in users:
+        result += '<p>'
+        result += 'Id=' + str(user.id)
+        result += ' Nome=' + user.username
+        result += ' Senha=' + user.password
+        result += '</p>'
+    return result
 
 
 if __name__ == '__main__':
