@@ -103,10 +103,9 @@ def new():
             user = User(request.form['username'], request.form['password'])
             db.session.add(user)
             db.session.commit()
-
-            flash('Registro foi inserido com sucesso')
-            return redirect(url_for('usuarios'))
-    return render_template('usuario.html')
+           ## flash('Registro foi inserido com sucesso')
+            return redirect(url_for('showUsuarios'))
+    return render_template('usuario.html', title='Usuários')
 
 @app.route('/usuario/add/')
 def addUsuario():
@@ -138,7 +137,7 @@ def showUsario(id):
     return result
 
 @app.route('/usuarios')
-def showUsarios():
+def showUsuarios():
     users=User.query.order_by(User.username).all()
     result=  '<h1>Usuários</h1><br><ul>'
     for user in users:
