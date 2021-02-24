@@ -1,6 +1,6 @@
 import datetime
 
-from flask import Flask
+from flask import Flask, request, flash, url_for, redirect, render_template
 from flask_sqlalchemy import SQLAlchemy
 from flask_migrate import Migrate
 from flask02.config import DevConfig
@@ -92,6 +92,21 @@ def home():
         result += "<li>%s</li>" % str(table)
     result += "</ul>"
     return result
+
+
+@app.route('/usuario', methods=['GET', 'POST'])
+def new():
+    if request.method == 'POST':
+        if not request.form['username'] or not request.form['password']:
+            flash('Favor entrar todos os valores dos campos', 'error')
+        else:
+            user = User(request.form['username'], request.form['password'])
+            db.session.add(user)
+            db.session.commit()
+
+            flash('Registro foi inserido com sucesso')
+            return redirect(url_for('usuarios'))
+    return render_template('usuario.html')
 
 @app.route('/usuario/add/')
 def addUsuario():
