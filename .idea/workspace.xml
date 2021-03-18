@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="74bed306-2629-4c42-a5e9-f34bee8db02f" name="Default" comment="Alteração em 24-02-2021">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask02/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/flask02/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flask02/usuario.html" beforeDir="false" afterPath="$PROJECT_DIR$/flask02/templates/usuario.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +16,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -56,7 +55,7 @@
       <recent name="E:\Desenvolvimento\poo-python-ifce-p7\flask02\templates" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main (1)">
+  <component name="RunManager" selected="Python.teste01">
     <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="poo-python-ifce-p7" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -145,28 +144,35 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests in teste04.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="teste01" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="poo-python-ifce-p7" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/aula16" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testes" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/aula16/teste04.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testes/teste01.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.teste01" />
         <item itemvalue="Python.main (1)" />
         <item itemvalue="Python.main (2)" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.teste" />
-        <item itemvalue="Python tests.Unittests in teste04.py" />
       </list>
     </recent_temporary>
   </component>
@@ -196,7 +202,12 @@
       <workItem from="1612879920160" duration="1904000" />
       <workItem from="1613061467240" duration="4397000" />
       <workItem from="1614089941173" duration="5832000" />
-      <workItem from="1614176048723" duration="5541000" />
+      <workItem from="1614176048723" duration="5591000" />
+      <workItem from="1614270651902" duration="1760000" />
+      <workItem from="1615219048333" duration="1478000" />
+      <workItem from="1615220898365" duration="2237000" />
+      <workItem from="1615249405311" duration="8000" />
+      <workItem from="1616085512797" duration="2212000" />
     </task>
     <task id="LOCAL-00001" summary="Alteração em 17-12-2020">
       <created>1608220501072</created>
@@ -296,7 +307,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614186371861</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Alteração em 24-02-2021">
+      <created>1614187867128</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1614187867128</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -332,12 +350,12 @@
     <SUITE FILE_PATH="coverage/poo_python_ifce_p7$barra.coverage" NAME="barra Coverage Results" MODIFIED="1597085634184" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aula13" />
     <SUITE FILE_PATH="coverage/poo_python_ifce_p7$Unittests_in_teste04_py.coverage" NAME="Unittests in teste04.py Coverage Results" MODIFIED="1612287380387" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aula16" />
     <SUITE FILE_PATH="coverage/poo_python_ifce_p7$linear.coverage" NAME="linear Coverage Results" MODIFIED="1597085851371" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aula13" />
-    <SUITE FILE_PATH="coverage/poo_python_ifce_p7$teste01.coverage" NAME="teste01 Coverage Results" MODIFIED="1608223839968" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aula16" />
+    <SUITE FILE_PATH="coverage/poo_python_ifce_p7$teste01.coverage" NAME="teste01 Coverage Results" MODIFIED="1615224862929" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testes" />
     <SUITE FILE_PATH="coverage/poo_python_ifce_p7$scatter2.coverage" NAME="scatter2 Coverage Results" MODIFIED="1597085289802" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aula13" />
     <SUITE FILE_PATH="coverage/poo_python_ifce_p7$main__2_.coverage" NAME="main (2) Coverage Results" MODIFIED="1612827643862" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/flask03" />
     <SUITE FILE_PATH="coverage/poo_python_ifce_p7$teste.coverage" NAME="teste Coverage Results" MODIFIED="1612287923533" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercicio04" />
     <SUITE FILE_PATH="coverage/poo_python_ifce_p7$scatter3.coverage" NAME="scatter3 Coverage Results" MODIFIED="1608219689027" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aula13" />
-    <SUITE FILE_PATH="coverage/poo_python_ifce_p7$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1614187782621" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/flask02" />
+    <SUITE FILE_PATH="coverage/poo_python_ifce_p7$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1614271946131" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/flask02" />
     <SUITE FILE_PATH="coverage/poo_python_ifce_p7$pizza.coverage" NAME="pizza Coverage Results" MODIFIED="1597089803056" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aula13" />
     <SUITE FILE_PATH="coverage/poo_python_ifce_p7$Unittests_in_teste02_py.coverage" NAME="Unittests in teste02.py Coverage Results" MODIFIED="1608224209420" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aula16" />
     <SUITE FILE_PATH="coverage/poo_python_ifce_p7$alura01.coverage" NAME="alura01 Coverage Results" MODIFIED="1597088343089" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aula13" />
