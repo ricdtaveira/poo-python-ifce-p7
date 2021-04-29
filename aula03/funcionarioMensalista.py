@@ -24,6 +24,10 @@ class FuncionarioMensalista(Funcionario):
         
     def inicializarFaltas(self):
         self._faltas=0
-            
-    
-    
+
+
+if __name__ == '__main__':
+    x = FuncionarioMensalista("Joana", "Maria", 2000.00, 100.00)
+    x.adicionarFaltas(1)
+    print(x.calcularPagamento())
+

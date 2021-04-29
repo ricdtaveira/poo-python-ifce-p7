@@ -11,6 +11,11 @@ v2 = Aviao()
 v3 = Jegue()
 
 mano = Manobrista()
+
+mano2 = Manobrista()
+
+mano.estaciona(mano2)
+
 mano.estaciona(v1)
 mano.estaciona(v2)
 mano.estaciona(v3) 
