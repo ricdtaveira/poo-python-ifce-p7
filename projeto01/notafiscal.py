@@ -35,7 +35,7 @@ class NotaFiscal():
     def calcularNotaFiscal(self):
         valor=0.0
         for item in self._itens:
-            valor =+ item._valorItem
+            valor = valor + item._valorItem
         self.valorNota=valor
      
     def imprimirNotaFiscal(self):       

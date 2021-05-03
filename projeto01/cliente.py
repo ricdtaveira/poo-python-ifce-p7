@@ -22,7 +22,7 @@ class Cliente():
         self._tipo = tipo
         
     def str(self):
-        string="\nId={4} Codigo={3} Nome={2} CNPJ/CPF={1} Tipo={0}".format(self._tipo, self._cnpjcpf, self._codigo, self._nome, self._id)
+        string="\nId={4} Codigo={2} Nome={3} CNPJ/CPF={1} Tipo={0}".format(self._tipo, self._cnpjcpf, self._codigo, self._nome, self._id)
         return string
     
 if __name__ == '__main__':
