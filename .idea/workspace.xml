@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74bed306-2629-4c42-a5e9-f34bee8db02f" name="Default" comment="Alteração em 29-04-2021">
+      <change afterPath="$PROJECT_DIR$/dabase01/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dabase01/exemplo01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database02/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database02/exemplo02.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projeto01/cliente.py" beforeDir="false" afterPath="$PROJECT_DIR$/projeto01/cliente.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projeto01/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/projeto01/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projeto01/notafiscal.py" beforeDir="false" afterPath="$PROJECT_DIR$/projeto01/notafiscal.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,8 +59,8 @@
       <recent name="E:\Desenvolvimento\poo-python-ifce-p7\flask02\templates" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main">
-    <configuration name="cliente" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.exemplo02">
+    <configuration name="exemplo01" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="poo-python-ifce-p7" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -67,12 +68,34 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/projeto01" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dabase01" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/projeto01/cliente.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dabase01/exemplo01.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="exemplo02" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="poo-python-ifce-p7" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/database02" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/database02/exemplo02.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -147,35 +170,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="tipocliente" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="poo-python-ifce-p7" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/projeto01" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/projeto01/tipocliente.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.exemplo02" />
+        <item itemvalue="Python.exemplo01" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.itemnotafiscal" />
         <item itemvalue="Python.produto" />
-        <item itemvalue="Python.cliente" />
-        <item itemvalue="Python.tipocliente" />
       </list>
     </recent_temporary>
   </component>
@@ -220,6 +221,7 @@
       <workItem from="1619717287168" duration="3858000" />
       <workItem from="1619885915009" duration="11000" />
       <workItem from="1620067909908" duration="4554000" />
+      <workItem from="1620321273372" duration="1697000" />
     </task>
     <task id="LOCAL-00001" summary="Alteração em 17-12-2020">
       <created>1608220501072</created>
@@ -439,7 +441,7 @@
     <SUITE FILE_PATH="coverage/poo_python_ifce_p7$funcionarioMensalista.coverage" NAME="funcionarioMensalista Coverage Results" MODIFIED="1619718438471" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aula03" />
     <SUITE FILE_PATH="coverage/poo_python_ifce_p7$main__2_.coverage" NAME="main (2) Coverage Results" MODIFIED="1612827643862" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/flask03" />
     <SUITE FILE_PATH="coverage/poo_python_ifce_p7$subplot2.coverage" NAME="subplot2 Coverage Results" MODIFIED="1597085509197" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aula13" />
-    <SUITE FILE_PATH="coverage/poo_python_ifce_p7$exemplo01.coverage" NAME="exemplo01 Coverage Results" MODIFIED="1619464989455" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aula02/exemplo" />
+    <SUITE FILE_PATH="coverage/poo_python_ifce_p7$exemplo01.coverage" NAME="exemplo01 Coverage Results" MODIFIED="1620323419151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dabase01" />
     <SUITE FILE_PATH="coverage/poo_python_ifce_p7$exemplo07.coverage" NAME="exemplo07 Coverage Results" MODIFIED="1619465259461" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aula02/exemplo" />
     <SUITE FILE_PATH="coverage/poo_python_ifce_p7$teste01.coverage" NAME="teste01 Coverage Results" MODIFIED="1615224862929" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testes" />
     <SUITE FILE_PATH="coverage/poo_python_ifce_p7$barra.coverage" NAME="barra Coverage Results" MODIFIED="1597085634184" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aula13" />
