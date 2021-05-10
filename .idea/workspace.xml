@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="74bed306-2629-4c42-a5e9-f34bee8db02f" name="Default" comment="Alteração em 29-04-2021">
-      <change afterPath="$PROJECT_DIR$/dabase01/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dabase01/exemplo01.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database02/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database02/exemplo02.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="74bed306-2629-4c42-a5e9-f34bee8db02f" name="Default" comment="Alteração em 29-04-2021" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -95,7 +89,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/database02/exemplo02.py" />
+      <option name="SCRIPT_NAME" value="E:\Desenvolvimento\poo-python-ifce-p7\dabase01\exemplo02.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -222,6 +216,7 @@
       <workItem from="1619885915009" duration="11000" />
       <workItem from="1620067909908" duration="4554000" />
       <workItem from="1620321273372" duration="1697000" />
+      <workItem from="1620671042782" duration="610000" />
     </task>
     <task id="LOCAL-00001" summary="Alteração em 17-12-2020">
       <created>1608220501072</created>
