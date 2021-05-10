@@ -49,7 +49,7 @@ def select_task_by_priority(conn, priority):
 
 
 def main():
-    database = r"C:\sqlite\db\pythonsqlite.db"
+    database = r"C:\tools\sqllite\BD\DB_Projects.db"
 
     # create a database connection
     conn = create_connection(database)
