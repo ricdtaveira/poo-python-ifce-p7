@@ -17,6 +17,18 @@ def create_connection(db_file):
     return conn
 
 
+def delete_project(conn, id):
+    """
+    Delete a task by task id
+    :param conn:  Connection to the SQLite database
+    :param id: id of the task
+    :return:
+    """
+    sql = 'DELETE FROM projects WHERE id=?'
+    cur = conn.cursor()
+    cur.execute(sql, (id,))
+    conn.commit()
+
 def delete_task(conn, id):
     """
     Delete a task by task id
@@ -48,7 +60,7 @@ def main():
     # create a database connection
     conn = create_connection(database)
     with conn:
-        delete_task(conn, 2);
+        delete_project(conn, 1);
         # delete_all_tasks(conn);
 
 

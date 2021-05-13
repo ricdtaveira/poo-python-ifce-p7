@@ -40,7 +40,7 @@ def main():
     # create a database connection
     conn = create_connection(database)
     with conn:
-        update_task(conn, (2, '2015-01-04', '2015-01-06', 2))
+        update_task(conn, (2, '2015-01-03', '2015-01-04', 1))
 
 
 if __name__ == '__main__':
