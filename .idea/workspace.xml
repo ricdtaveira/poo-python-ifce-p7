@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="74bed306-2629-4c42-a5e9-f34bee8db02f" name="Default" comment="Alteração em 27-05-2021">
-      <change afterPath="$PROJECT_DIR$/flask00.py" afterDir="false" />
+    <list default="true" id="74bed306-2629-4c42-a5e9-f34bee8db02f" name="Default" comment="Alteração em 10-06-2021">
+      <change beforePath="$PROJECT_DIR$/flask01/flask00.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +51,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="C:/tools/Python39" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="C:/Program Files/nodejs/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -245,7 +245,7 @@
       <workItem from="1622145111997" duration="2387000" />
       <workItem from="1622216189433" duration="1121000" />
       <workItem from="1622220797625" duration="1072000" />
-      <workItem from="1623345441661" duration="163000" />
+      <workItem from="1623345441661" duration="471000" />
     </task>
     <task id="LOCAL-00001" summary="Alteração em 17-12-2020">
       <created>1608220501072</created>
@@ -422,7 +422,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622138188134</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Alteração em 10-06-2021">
+      <created>1623345638009</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1623345638009</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -445,7 +452,8 @@
     <MESSAGE value="Alteração em 10-05-2021" />
     <MESSAGE value="Alteração em 13-05-2021" />
     <MESSAGE value="Alteração em 27-05-2021" />
-    <option name="LAST_COMMIT_MESSAGE" value="Alteração em 27-05-2021" />
+    <MESSAGE value="Alteração em 10-06-2021" />
+    <option name="LAST_COMMIT_MESSAGE" value="Alteração em 10-06-2021" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
