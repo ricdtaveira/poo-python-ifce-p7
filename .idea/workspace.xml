@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74bed306-2629-4c42-a5e9-f34bee8db02f" name="Default" comment="Alteração em 27-05-2021">
-      <change afterPath="$PROJECT_DIR$/tkinter/tkinter03.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/poo-python-ifce-p7.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/poo-python-ifce-p7.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tkinter/tkinter00.py" beforeDir="false" afterPath="$PROJECT_DIR$/tkinter/tkinter00.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tkinter/tkinter01.py" beforeDir="false" afterPath="$PROJECT_DIR$/tkinter/tkinter01.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tkinter/tkinter02.py" beforeDir="false" afterPath="$PROJECT_DIR$/tkinter/tkinter02.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flask00.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -251,6 +245,7 @@
       <workItem from="1622145111997" duration="2387000" />
       <workItem from="1622216189433" duration="1121000" />
       <workItem from="1622220797625" duration="1072000" />
+      <workItem from="1623345441661" duration="163000" />
     </task>
     <task id="LOCAL-00001" summary="Alteração em 17-12-2020">
       <created>1608220501072</created>
