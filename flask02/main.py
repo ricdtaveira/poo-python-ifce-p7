@@ -1,4 +1,5 @@
 import datetime
+import json
 
 from flask import Flask, request, flash, url_for, redirect, render_template
 from flask_sqlalchemy import SQLAlchemy
@@ -86,6 +87,7 @@ class Tag(db.Model):
 
 
 @app.route('/')
+@app.route('/index')
 def home():
     result = "<h1>Tabelas</h1><br><ul>"
     for table in db.metadata.tables.items():
@@ -146,10 +148,9 @@ def showUsuarios():
         result += ' Nome=' + user.username
         result += ' Senha=' + user.password
         result += '</p>'
-    return result
+    return users.tojson
 
 
 if __name__ == '__main__':
     db.create_all()
-
     app.run()

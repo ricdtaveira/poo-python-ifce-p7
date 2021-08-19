@@ -8,7 +8,7 @@ app.config.from_object(DevConfig)
 
 @app.route('/')
 def index():
-    return '<h1>Index Page</h1>'
+    return '<h1>Página Inicial</h1>'
 
 @app.route('/hello')
 def hello():
@@ -20,17 +20,17 @@ def login():
 
 @app.route('/todo')
 def todo():
-    return '<h1>Todo. Para fazer !</h1>'
+    return '<h2>Todo. Para fazer !</h1>'
 
 
 @app.route('/user/<username>')
 def profile(username):
-    return '{}\'s profile'.format(escape(username))
+    return '<h2>' + '{}\'s profile'.format(escape(username)) + '</h2>'
 
 @app.route('/post/<int:post_id>')
 def show_post(post_id):
     # show the post with the given id, the id is an integer
-    return 'Post %d' % post_id
+    return '<h2>' + 'Post %d' % post_id + '</h2>'
 
 @app.route('/path/<path:subpath>')
 def show_subpath(subpath):
@@ -41,7 +41,7 @@ with app.test_request_context():
     print(url_for('index'))
     print(url_for('login'))
     print(url_for('login', next='/'))
-    print(url_for('profile', username='Zé Mané'))
+    print(url_for('profile', username='Ze Mane'))
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0')
