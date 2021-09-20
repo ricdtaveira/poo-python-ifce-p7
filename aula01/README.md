@@ -3,7 +3,7 @@
 1. Dominio de um problema envolve as entidades envolvidas em um problema.
 2. Classe é uma representação de uma entidade.
 3. Objeto é uma instancia de uma classe na memória. Pode existir vários objetos de
-   determinada classe. 
+   uma determinada classe. 
 4. Atributos definem características de uma classe. Atributos podem ser privados ou
    publicos.
 5. Método são funcionalidades associadas a uma classe.
