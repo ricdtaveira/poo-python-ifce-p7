@@ -6,4 +6,5 @@
 4. O uso de Interfaces é uma boa prática de Engenharia de Software na medida em que possilita a Abstração, Baixo Acoplamento e isola uma implementação de outra.
 5. O Encapsulamento também é viabilizado visto que para o uso de uma implementação de uma Interface é necessário apenas saber a assinatura do método que é implementado. A implementação fica isolada de seu uso.
 6. Uma observação quanto a implementação de uma Interface é que todos os métodos que compõe o contrato devem ser implementados. A não observação dessa peculiaridade impossibilita a total compilação do código.
+7. A Interface é uma das formas de Polimorfismo.
 
