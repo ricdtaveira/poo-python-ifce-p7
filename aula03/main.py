@@ -19,7 +19,6 @@ def main():
     print ("Comissionado: " + str(c_emp.calcularPagamento()))
     print ("Mensalista: " + str(m_emp.calcularPagamento()))
     print ("Horista: " + str(h_emp.calcularPagamento()))
-    
-    
+
 if __name__ == '__main__':
     main()
