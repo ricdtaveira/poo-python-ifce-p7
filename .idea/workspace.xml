@@ -1,21 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="74bed306-2629-4c42-a5e9-f34bee8db02f" name="Default" comment="Alteração em 07-10-2021">
-      <change afterPath="$PROJECT_DIR$/csvdemo/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csvdemo/csv01.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csvdemo/csv02.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csvdemo/csv03.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csvdemo/csv04.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csvdemo/produtos.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="74bed306-2629-4c42-a5e9-f34bee8db02f" name="Default" comment="Alteração em 19-10-2021">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/csv/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/csv/csv01.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/csv/csv02.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/csv/csv03.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/csv/csv04.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/csv/produtos_csv.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplot/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/matplotdemo/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplot/plot01.py" beforeDir="false" afterPath="$PROJECT_DIR$/matplotdemo/plot01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/matplot/py02.py" beforeDir="false" afterPath="$PROJECT_DIR$/matplotdemo/py02.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -286,7 +276,7 @@
       <workItem from="1634583693661" duration="3237000" />
       <workItem from="1634595015742" duration="1197000" />
       <workItem from="1634671668411" duration="1549000" />
-      <workItem from="1634677033052" duration="111000" />
+      <workItem from="1634677033052" duration="275000" />
     </task>
     <task id="LOCAL-00001" summary="Alteração em 17-12-2020">
       <created>1608220501072</created>
@@ -491,7 +481,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633630604829</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Alteração em 19-10-2021">
+      <created>1634677166255</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1634677166255</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -517,7 +514,8 @@
     <MESSAGE value="Alteração em 10-06-2021" />
     <MESSAGE value="Alteração em 19-08-2021" />
     <MESSAGE value="Alteração em 07-10-2021" />
-    <option name="LAST_COMMIT_MESSAGE" value="Alteração em 07-10-2021" />
+    <MESSAGE value="Alteração em 19-10-2021" />
+    <option name="LAST_COMMIT_MESSAGE" value="Alteração em 19-10-2021" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
