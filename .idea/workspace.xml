@@ -2,13 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74bed306-2629-4c42-a5e9-f34bee8db02f" name="Default" comment="Alteração em 07-10-2021">
-      <change afterPath="$PROJECT_DIR$/csv/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csv/csv01.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csv/csv02.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csv/csv03.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csv/csv04.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csv/produtos_csv.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csvdemo/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csvdemo/csv01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csvdemo/csv02.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csvdemo/csv03.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csvdemo/csv04.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csvdemo/produtos.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/csv/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/csv/csv01.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/csv/csv02.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/csv/csv03.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/csv/csv04.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/csv/produtos_csv.csv" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,8 +87,8 @@
       <recent name="E:\Desenvolvimento\poo-python-ifce-p7\flask02\templates" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.csv04">
-    <configuration name="csv01" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.csv03 (1)">
+    <configuration name="csv01 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="poo-python-ifce-p7" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -89,12 +96,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/csv" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/csvdemo" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/csv/csv01.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/csvdemo/csv01.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -111,12 +118,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/csv" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/csvdemo" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/csv/csv02.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/csvdemo/csv02.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -125,7 +132,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="csv03" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="csv03 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="poo-python-ifce-p7" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -133,12 +140,34 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/csv" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/csvdemo" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/csv/csv03.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/csvdemo/csv03.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="csv04 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="poo-python-ifce-p7" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/csvdemo" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/csvdemo/csv04.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -169,42 +198,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="csvjson" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="poo-python-ifce-p7" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataserial" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataserial/csvjson.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Python.csv01" />
-      <item itemvalue="Python.csv02" />
-      <item itemvalue="Python.csvjson" />
-      <item itemvalue="Python.csv03" />
       <item itemvalue="Python.csv04" />
+      <item itemvalue="Python.csv01 (1)" />
+      <item itemvalue="Python.csv04 (1)" />
+      <item itemvalue="Python.csv02" />
+      <item itemvalue="Python.csv03 (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.csv04" />
-        <item itemvalue="Python.csv03" />
-        <item itemvalue="Python.csvjson" />
+        <item itemvalue="Python.csv03 (1)" />
         <item itemvalue="Python.csv02" />
-        <item itemvalue="Python.csv01" />
+        <item itemvalue="Python.csv01 (1)" />
+        <item itemvalue="Python.csv04 (1)" />
+        <item itemvalue="Python.csv04" />
       </list>
     </recent_temporary>
   </component>
@@ -277,6 +284,9 @@
       <workItem from="1633625492765" duration="5108000" />
       <workItem from="1633879009919" duration="12000" />
       <workItem from="1634583693661" duration="3237000" />
+      <workItem from="1634595015742" duration="1197000" />
+      <workItem from="1634671668411" duration="1549000" />
+      <workItem from="1634677033052" duration="111000" />
     </task>
     <task id="LOCAL-00001" summary="Alteração em 17-12-2020">
       <created>1608220501072</created>
@@ -683,7 +693,7 @@
     <SUITE FILE_PATH="coverage/poo_python_ifce_p7$lerarquivo04.coverage" NAME="lerarquivo04 Coverage Results" MODIFIED="1633626979526" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aula06/arquivos" />
     <SUITE FILE_PATH="coverage/poo_python_ifce_p7$tkinter00.coverage" NAME="tkinter00 Coverage Results" MODIFIED="1622221384695" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tkinter" />
     <SUITE FILE_PATH="coverage/poo_python_ifce_p7$tkinter03.coverage" NAME="tkinter03 Coverage Results" MODIFIED="1622221485385" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tkinter" />
-    <SUITE FILE_PATH="coverage/poo_python_ifce_p7$csv01.coverage" NAME="csv01 Coverage Results" MODIFIED="1634587700610" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/csv" />
+    <SUITE FILE_PATH="coverage/poo_python_ifce_p7$csv01.coverage" NAME="csv01 Coverage Results" MODIFIED="1634675633795" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/csv" />
     <SUITE FILE_PATH="coverage/poo_python_ifce_p7$tipocliente.coverage" NAME="tipocliente Coverage Results" MODIFIED="1633021403715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/projeto01" />
     <SUITE FILE_PATH="coverage/poo_python_ifce_p7$lerarquivo.coverage" NAME="lerarquivo Coverage Results" MODIFIED="1633625872638" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aula06/arquivos" />
     <SUITE FILE_PATH="coverage/poo_python_ifce_p7$exemplo03.coverage" NAME="exemplo03 Coverage Results" MODIFIED="1632167460982" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aula02/exemplo" />
@@ -692,19 +702,22 @@
     <SUITE FILE_PATH="coverage/poo_python_ifce_p7$exemplo12.coverage" NAME="exemplo12 Coverage Results" MODIFIED="1632170007680" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aula02/exemplo" />
     <SUITE FILE_PATH="coverage/poo_python_ifce_p7$itemnotafiscal.coverage" NAME="itemnotafiscal Coverage Results" MODIFIED="1620073625333" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/projeto01" />
     <SUITE FILE_PATH="coverage/poo_python_ifce_p7$exemplo_03.coverage" NAME="exemplo-03 Coverage Results" MODIFIED="1633378273144" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aula06/excecao" />
-    <SUITE FILE_PATH="coverage/poo_python_ifce_p7$csv04.coverage" NAME="csv04 Coverage Results" MODIFIED="1634588638834" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/csv" />
+    <SUITE FILE_PATH="coverage/poo_python_ifce_p7$csv04.coverage" NAME="csv04 Coverage Results" MODIFIED="1634676049399" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/csv" />
     <SUITE FILE_PATH="coverage/poo_python_ifce_p7$entrada.coverage" NAME="entrada Coverage Results" MODIFIED="1622146704076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aula14" />
     <SUITE FILE_PATH="coverage/poo_python_ifce_p7$plot03.coverage" NAME="plot03 Coverage Results" MODIFIED="1633630335075" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aula07" />
     <SUITE FILE_PATH="coverage/poo_python_ifce_p7$lerarquivo07.coverage" NAME="lerarquivo07 Coverage Results" MODIFIED="1633628158454" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aula06/arquivos" />
     <SUITE FILE_PATH="coverage/poo_python_ifce_p7$criararquivo02.coverage" NAME="criararquivo02 Coverage Results" MODIFIED="1633628406707" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aula06/arquivos" />
     <SUITE FILE_PATH="coverage/poo_python_ifce_p7$alura01.coverage" NAME="alura01 Coverage Results" MODIFIED="1597088343089" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aula13" />
     <SUITE FILE_PATH="coverage/poo_python_ifce_p7$lerquivo05.coverage" NAME="lerquivo05 Coverage Results" MODIFIED="1633627177901" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aula06/arquivos" />
+    <SUITE FILE_PATH="coverage/poo_python_ifce_p7$csv01__1_.coverage" NAME="csv01 (1) Coverage Results" MODIFIED="1634677104377" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/csvdemo" />
     <SUITE FILE_PATH="coverage/poo_python_ifce_p7$tkinter01.coverage" NAME="tkinter01 Coverage Results" MODIFIED="1622218499752" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tkinter" />
+    <SUITE FILE_PATH="coverage/poo_python_ifce_p7$csv03__1_.coverage" NAME="csv03 (1) Coverage Results" MODIFIED="1634677128428" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/csvdemo" />
     <SUITE FILE_PATH="coverage/poo_python_ifce_p7$pizza.coverage" NAME="pizza Coverage Results" MODIFIED="1597089803056" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aula13" />
     <SUITE FILE_PATH="coverage/poo_python_ifce_p7$leraquivo02.coverage" NAME="leraquivo02 Coverage Results" MODIFIED="1633626326807" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aula06/arquivos" />
-    <SUITE FILE_PATH="coverage/poo_python_ifce_p7$csv02.coverage" NAME="csv02 Coverage Results" MODIFIED="1634587722314" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/csv" />
+    <SUITE FILE_PATH="coverage/poo_python_ifce_p7$csv02.coverage" NAME="csv02 Coverage Results" MODIFIED="1634677117067" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/csvdemo" />
     <SUITE FILE_PATH="coverage/poo_python_ifce_p7$exemplo02.coverage" NAME="exemplo02 Coverage Results" MODIFIED="1632167374204" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aula02/exemplo" />
     <SUITE FILE_PATH="coverage/poo_python_ifce_p7$exemplo19.coverage" NAME="exemplo19 Coverage Results" MODIFIED="1632170436699" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aula02/exemplo" />
+    <SUITE FILE_PATH="coverage/poo_python_ifce_p7$csv04__1_.coverage" NAME="csv04 (1) Coverage Results" MODIFIED="1634677092378" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/csvdemo" />
     <SUITE FILE_PATH="coverage/poo_python_ifce_p7$scatter3.coverage" NAME="scatter3 Coverage Results" MODIFIED="1608219689027" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aula13" />
     <SUITE FILE_PATH="coverage/poo_python_ifce_p7$subplot2.coverage" NAME="subplot2 Coverage Results" MODIFIED="1597085509197" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aula13" />
     <SUITE FILE_PATH="coverage/poo_python_ifce_p7$main__2_.coverage" NAME="main (2) Coverage Results" MODIFIED="1633024032441" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/projeto01" />
@@ -714,6 +727,6 @@
     <SUITE FILE_PATH="coverage/poo_python_ifce_p7$teste__1_.coverage" NAME="teste (1) Coverage Results" MODIFIED="1619113826760" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aula01" />
     <SUITE FILE_PATH="coverage/poo_python_ifce_p7$tkinter02.coverage" NAME="tkinter02 Coverage Results" MODIFIED="1622216333238" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tkinter" />
     <SUITE FILE_PATH="coverage/poo_python_ifce_p7$exemplo13.coverage" NAME="exemplo13 Coverage Results" MODIFIED="1619467455778" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aula02/exemplo" />
-    <SUITE FILE_PATH="coverage/poo_python_ifce_p7$csv03.coverage" NAME="csv03 Coverage Results" MODIFIED="1634588210294" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/csv" />
+    <SUITE FILE_PATH="coverage/poo_python_ifce_p7$csv03.coverage" NAME="csv03 Coverage Results" MODIFIED="1634675764813" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/csv" />
   </component>
 </project>
