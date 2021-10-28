@@ -24,7 +24,7 @@ def select_all_tasks(conn):
     :return:
     """
     cur = conn.cursor()
-    cur.execute("SELECT * FROM tasks")
+    cur.execute("SELECT * FROM tb_tasks")
 
     rows = cur.fetchall()
 
@@ -40,7 +40,7 @@ def select_task_by_priority(conn, priority):
     :return:
     """
     cur = conn.cursor()
-    cur.execute("SELECT * FROM tasks WHERE priority=?", (priority,))
+    cur.execute("SELECT * FROM tb_tasks WHERE priority=?", (priority,))
 
     rows = cur.fetchall()
 
@@ -49,7 +49,7 @@ def select_task_by_priority(conn, priority):
 
 
 def main():
-    database = r"C:\tools\sqllite\BD\DB_Projects.db"
+    database = r"C:\tools\sqllite\BD\DB_PROJETOS.db"
 
     # create a database connection
     conn = create_connection(database)

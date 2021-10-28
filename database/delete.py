@@ -24,7 +24,7 @@ def delete_project(conn, id):
     :param id: id of the task
     :return:
     """
-    sql = 'DELETE FROM projects WHERE id=?'
+    sql = 'DELETE FROM tb_projects WHERE id=?'
     cur = conn.cursor()
     cur.execute(sql, (id,))
     conn.commit()
@@ -36,7 +36,7 @@ def delete_task(conn, id):
     :param id: id of the task
     :return:
     """
-    sql = 'DELETE FROM tasks WHERE id=?'
+    sql = 'DELETE FROM tb_tasks WHERE id=?'
     cur = conn.cursor()
     cur.execute(sql, (id,))
     conn.commit()
@@ -48,21 +48,20 @@ def delete_all_tasks(conn):
     :param conn: Connection to the SQLite database
     :return:
     """
-    sql = 'DELETE FROM tasks'
+    sql = 'DELETE FROM tb_tasks'
     cur = conn.cursor()
     cur.execute(sql)
     conn.commit()
 
 
 def main():
-    database = r"C:\tools\sqllite\BD\DB_Projects.db"
+    database = r"C:\tools\sqllite\BD\DB_PROJETOS.db"
 
     # create a database connection
     conn = create_connection(database)
     with conn:
         delete_project(conn, 1);
         # delete_all_tasks(conn);
-
 
 if __name__ == '__main__':
     main()

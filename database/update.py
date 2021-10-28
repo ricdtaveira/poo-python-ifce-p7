@@ -24,7 +24,7 @@ def update_task(conn, task):
     :param task:
     :return: project id
     """
-    sql = ''' UPDATE tasks
+    sql = ''' UPDATE tb_tasks
               SET priority = ? ,
                   begin_date = ? ,
                   end_date = ?
@@ -35,7 +35,7 @@ def update_task(conn, task):
 
 
 def main():
-    database = r"C:\tools\sqllite\BD\DB_Projects.db"
+    database = r"C:\tools\sqllite\BD\DB_PROJETOS.db"
 
     # create a database connection
     conn = create_connection(database)

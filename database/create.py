@@ -1,7 +1,6 @@
 import sqlite3
 from sqlite3 import Error
 
-
 def create_connection(db_file):
     """ create a database connection to the SQLite database
         specified by db_file
@@ -32,24 +31,24 @@ def create_table(conn, create_table_sql):
 
 
 def main():
-    database = r"C:\tools\sqllite\BD\DB_Projects.db"
+    database = r"C:\tools\sqllite\BD\DB_PROJETOS.db"
 
-    sql_create_projects_table = """ CREATE TABLE IF NOT EXISTS projects (
-                                        id integer PRIMARY KEY,
+    sql_create_projects_table = """CREATE TABLE IF NOT EXISTS tb_projects (
+                                        id integer PRIMARY KEY autoincrement,
                                         name text NOT NULL,
                                         begin_date text,
                                         end_date text
                                     ); """
 
-    sql_create_tasks_table = """CREATE TABLE IF NOT EXISTS tasks (
-                                    id integer PRIMARY KEY,
+    sql_create_tasks_table = """CREATE TABLE IF NOT EXISTS tb_tasks (
+                                    id integer PRIMARY KEY autoincrement,
                                     name text NOT NULL,
                                     priority integer,
                                     status_id integer NOT NULL,
                                     project_id integer NOT NULL,
                                     begin_date text NOT NULL,
                                     end_date text NOT NULL,
-                                    FOREIGN KEY (project_id) REFERENCES projects (id)
+                                    FOREIGN KEY (project_id) REFERENCES tb_projects (id)
                                 );"""
 
     # create a database connection
