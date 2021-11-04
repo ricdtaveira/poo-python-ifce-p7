@@ -19,10 +19,10 @@ def main():
     ## Criação do Banco de Dados
     db.create_all()
 
-    ## Instaciar objetos (Criar)
+    ## Instanciar objetos (Criar)
     admin = User(username='admin', email='admin@example.com')
     guest = User(username='guest', email='guest@example.com')
-    joao  = User(username='João', email='joao@example.com')
+    joao  = User(username='João',  email='joao@example.com')
 
     ##Persistir os objetos no Banco de Dados (Insert)
     db.session.add(admin)
@@ -30,9 +30,11 @@ def main():
     db.session.add(joao)
     db.session.commit()
 
-    ##Executar um Select * e Consulta
+    ##Executar um Select *
     print("Select User *")
     print(User.query.all())
+
+    ##Executar um Select com um filtro
     print("Select User com filtro")
     print(User.query.filter_by(username='admin').first())
 
