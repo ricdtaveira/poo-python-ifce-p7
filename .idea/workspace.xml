@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74bed306-2629-4c42-a5e9-f34bee8db02f" name="Default" comment="Alteração em 04-11-2021">
+      <change afterPath="$PROJECT_DIR$/sqlalchemy01/Posts.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sqlalchemy01/posts_category.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sqlalchemy01/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/sqlalchemy01/user.py" afterDir="false" />
     </list>
@@ -75,29 +77,7 @@
       <recent name="E:\Desenvolvimento\poo-python-ifce-p7\flask02\templates" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.user">
-    <configuration name="create" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="poo-python-ifce-p7" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/database" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/database/create.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.posts_category">
     <configuration name="delete" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="poo-python-ifce-p7" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -134,6 +114,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/database/insert.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="posts_category" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="poo-python-ifce-p7" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sqlalchemy01" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sqlalchemy01/posts_category.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -187,19 +189,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.create" />
       <item itemvalue="Python.insert" />
       <item itemvalue="Python.delete" />
       <item itemvalue="Python.update" />
       <item itemvalue="Python.user" />
+      <item itemvalue="Python.posts_category" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.posts_category" />
         <item itemvalue="Python.user" />
         <item itemvalue="Python.update" />
         <item itemvalue="Python.insert" />
         <item itemvalue="Python.delete" />
-        <item itemvalue="Python.create" />
       </list>
     </recent_temporary>
   </component>
@@ -278,7 +280,8 @@
       <workItem from="1634684957859" duration="802000" />
       <workItem from="1634834486509" duration="4844000" />
       <workItem from="1635440438173" duration="5493000" />
-      <workItem from="1636046259015" duration="4104000" />
+      <workItem from="1636046259015" duration="4164000" />
+      <workItem from="1636399325002" duration="4548000" />
     </task>
     <task id="LOCAL-00001" summary="Alteração em 17-12-2020">
       <created>1608220501072</created>
@@ -518,7 +521,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636049510631</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Alteração em 04-11-2021">
+      <created>1636050408841</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1636050408841</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -715,6 +725,7 @@
     <SUITE FILE_PATH="coverage/poo_python_ifce_p7$csvjson.coverage" NAME="csvjson Coverage Results" MODIFIED="1634587774527" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dataserial" />
     <SUITE FILE_PATH="coverage/poo_python_ifce_p7$exemplo04.coverage" NAME="exemplo04 Coverage Results" MODIFIED="1632167680506" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aula02/exemplo" />
     <SUITE FILE_PATH="coverage/poo_python_ifce_p7$plot02.coverage" NAME="plot02 Coverage Results" MODIFIED="1633630253667" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aula07" />
+    <SUITE FILE_PATH="coverage/poo_python_ifce_p7$posts_category.coverage" NAME="posts_category Coverage Results" MODIFIED="1636403822457" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sqlalchemy01" />
     <SUITE FILE_PATH="coverage/poo_python_ifce_p7$delete.coverage" NAME="delete Coverage Results" MODIFIED="1635444497212" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/database" />
     <SUITE FILE_PATH="coverage/poo_python_ifce_p7$cliente.coverage" NAME="cliente Coverage Results" MODIFIED="1632775519559" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/projeto01" />
     <SUITE FILE_PATH="coverage/poo_python_ifce_p7$teste.coverage" NAME="teste Coverage Results" MODIFIED="1612287923533" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/exercicio04" />
@@ -757,7 +768,7 @@
     <SUITE FILE_PATH="coverage/poo_python_ifce_p7$tkinter01.coverage" NAME="tkinter01 Coverage Results" MODIFIED="1622218499752" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tkinter" />
     <SUITE FILE_PATH="coverage/poo_python_ifce_p7$csv03__1_.coverage" NAME="csv03 (1) Coverage Results" MODIFIED="1634677128428" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/csvdemo" />
     <SUITE FILE_PATH="coverage/poo_python_ifce_p7$pizza.coverage" NAME="pizza Coverage Results" MODIFIED="1597089803056" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aula13" />
-    <SUITE FILE_PATH="coverage/poo_python_ifce_p7$user.coverage" NAME="user Coverage Results" MODIFIED="1636050271810" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sqlalchemy01" />
+    <SUITE FILE_PATH="coverage/poo_python_ifce_p7$user.coverage" NAME="user Coverage Results" MODIFIED="1636400657968" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sqlalchemy01" />
     <SUITE FILE_PATH="coverage/poo_python_ifce_p7$leraquivo02.coverage" NAME="leraquivo02 Coverage Results" MODIFIED="1633626326807" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aula06/arquivos" />
     <SUITE FILE_PATH="coverage/poo_python_ifce_p7$csv02.coverage" NAME="csv02 Coverage Results" MODIFIED="1634835008842" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/csvdemo" />
     <SUITE FILE_PATH="coverage/poo_python_ifce_p7$exemplo02.coverage" NAME="exemplo02 Coverage Results" MODIFIED="1632167374204" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aula02/exemplo" />
