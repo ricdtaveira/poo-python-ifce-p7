@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="74bed306-2629-4c42-a5e9-f34bee8db02f" name="Default" comment="Alteração em 04-11-2021">
-      <change afterPath="$PROJECT_DIR$/sqlalchemy01/Posts.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sqlalchemy01/posts_category.py" afterDir="false" />
+    <list default="true" id="74bed306-2629-4c42-a5e9-f34bee8db02f" name="Default" comment="Alteração em 08-11-2021">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sqlalchemy01/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/sqlalchemy01/user.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sqlalchemy01/Posts.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sqlalchemy01/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sqlalchemy01/teste.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sqlalchemy01/user.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,6 +74,9 @@
       <recent name="E:\Desenvolvimento\poo-python-ifce-p7\flask06" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Desenvolvimento\poo-python-ifce-p7\sqlalchemy01" />
+      <recent name="E:\Desenvolvimento\poo-python-ifce-p7\sqlalchemy01\model" />
+      <recent name="E:\Desenvolvimento\poo-python-ifce-p7\sqlalchemy01\data" />
       <recent name="E:\Desenvolvimento\poo-python-ifce-p7\dabase01" />
       <recent name="E:\Desenvolvimento\poo-python-ifce-p7\flask02\templates" />
     </key>
@@ -114,6 +118,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/database/insert.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="poo-python-ifce-p7" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sqlalchemy01" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="E:\Desenvolvimento\poo-python-ifce-p7\sqlalchemy01\main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -166,39 +192,16 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="user" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="poo-python-ifce-p7" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sqlalchemy01" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sqlalchemy01/user.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
+      <item itemvalue="Python.main" />
       <item itemvalue="Python.insert" />
       <item itemvalue="Python.delete" />
       <item itemvalue="Python.update" />
-      <item itemvalue="Python.user" />
       <item itemvalue="Python.posts_category" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.posts_category" />
-        <item itemvalue="Python.user" />
         <item itemvalue="Python.update" />
         <item itemvalue="Python.insert" />
         <item itemvalue="Python.delete" />
@@ -281,7 +284,10 @@
       <workItem from="1634834486509" duration="4844000" />
       <workItem from="1635440438173" duration="5493000" />
       <workItem from="1636046259015" duration="4164000" />
-      <workItem from="1636399325002" duration="4548000" />
+      <workItem from="1636399325002" duration="4604000" />
+      <workItem from="1636468341098" duration="6032000" />
+      <workItem from="1636476806094" duration="777000" />
+      <workItem from="1636486778930" duration="20000" />
     </task>
     <task id="LOCAL-00001" summary="Alteração em 17-12-2020">
       <created>1608220501072</created>
@@ -528,7 +534,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636050408841</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Alteração em 08-11-2021">
+      <created>1636404362213</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1636404362213</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -557,7 +570,8 @@
     <MESSAGE value="Alteração em 19-10-2021" />
     <MESSAGE value="Alteração em 28-10-2021" />
     <MESSAGE value="Alteração em 04-11-2021" />
-    <option name="LAST_COMMIT_MESSAGE" value="Alteração em 04-11-2021" />
+    <MESSAGE value="Alteração em 08-11-2021" />
+    <option name="LAST_COMMIT_MESSAGE" value="Alteração em 08-11-2021" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
