@@ -1,14 +1,11 @@
 from my_app import db
 from datetime import datetime
-
-
 """
 A Classe Post (Filho) está relacionada com a Classe Categoria (Pai)
 da seguinte forma:     
     Um Post está relacionado a uma Categoria
     Uma Categoria está relacionada a muitos Posts 
 No lado da classe Post (Filho) é definido a chave estrangeira categoria_id.
-    
 """
 class Post(db.Model):
     __tablename__ = "TB_POST"
