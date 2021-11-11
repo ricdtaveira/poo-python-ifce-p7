@@ -18,7 +18,7 @@ class Person(db.Model):
         return '<Person %r>' % self.name
 
     def printAddresses(self):
-        return 'Name= ' + self.name + 'Addresses= ' + self.addresses
+        return 'Name= ' + self.name + '\nAddresses= ' + str(self.addresses)
 
 class Address(db.Model):
     __tablename__ = "TB_ADDRESS"

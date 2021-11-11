@@ -44,12 +44,18 @@ def main():
     for addres in address:
         print(addres)
 
-    print("\nImprimir Endereços das Pessoas")
-    print("------------------------------")
+    print("\nImprimir Endereços das Pessoas-1")
+    print("--------------------------------")
     pessoas = Person.query.all()
     for pessoa in pessoas:
         print(pessoa.name)
         print(pessoa.addresses)
+
+    print("\nImprimir Endereços das Pessoas-2")
+    print("--------------------------------")
+    pessoas = Person.query.all()
+    for pessoa in pessoas:
+        print(pessoa.printAddresses())
 
 if __name__ == '__main__':
     main()
