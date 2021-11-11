@@ -1,0 +1,21 @@
+Flask-SQLAlchemy
+https://flask-sqlalchemy.palletsprojects.com/en/2.x/
+
+Flask-SQLAlchemy User Guide
+https://flask-sqlalchemy.palletsprojects.com/en/2.x/#user-guide
+
+Declaring Models
+https://flask-sqlalchemy.palletsprojects.com/en/2.x/models/
+
+Relationship Configuration
+https://docs.sqlalchemy.org/en/14/orm/relationships.html
+
+Flask SQLAlchemy (with Examples)
+https://pythonbasics.org/flask-sqlalchemy/
+
+Linking Relationships with Backref
+https://docs.sqlalchemy.org/en/14/orm/backref.html#relationships-backref
+
+Configuration
+https://flask-sqlalchemy.palletsprojects.com/en/2.x/config/
+

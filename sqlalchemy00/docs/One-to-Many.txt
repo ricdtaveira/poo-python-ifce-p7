@@ -1,0 +1,66 @@
+Os relacionamentos mais comuns são relacionamentos um-para-muitos.
+Como os relacionamentos são declarados antes de serem estabelecidos,
+você pode usar strings para se referir a classes que ainda não foram
+criadas (por exemplo, se Pessoa definir um relacionamento para Endereço
+que é declarado posteriormente no arquivo).
+
+Relacionamentos são expressos com a função relationship().  
+No entanto, a chave estrangeira deve ser declarada separadamente 
+com a classe ForeignKey.
+
+Exemplo 1
+---------
+class Person(db.Model):
+    __tablename__ = "TB_PERSON"
+    id = db.Column(db.Integer, primary_key=True)
+    name = db.Column(db.String(50), nullable=False)
+    addresses = db.relationship('TB_ADDRESS', backref='TB_PERSON', lazy=True)
+
+class Address(db.Model):
+     __tablename__ = "TB_ADDRESS"
+    id = db.Column(db.Integer, primary_key=True)
+    email = db.Column(db.String(120), nullable=False)
+    person_id = db.Column(db.Integer, db.ForeignKey('TB_PERSON.id'),
+        nullable=False)
+
+Observações:
+backref é uma maneira simples de também declarar uma nova propriedade na
+classe Address. Você também pode usar my_address.person para chegar até 
+a pessoa naquele endereço.
+
+Exemplo 2
+---------
+
+class Pai (Base):
+    __tablename__ = 'pai'
+    id = Column(Integer, primary_key=True)
+    filhos = relationship("Filhos")
+
+class Filho(Base):
+    __tablename__ = 'filho'
+    id = Column(Integer, primary_key=True)
+    pai_id = Column(Integer, ForeignKey('pai.id'))
+
+Um relacionamento um para muitos coloca uma chave estrangeira na tabela 
+filho que faz referência ao pai. relacionamento () é então especificado 
+no pai, como uma referência a uma coleção de itens representados pelo 
+filho.
+
+Exemplo 3
+---------
+
+Para estabelecer um relacionamento bidirecional de um-para-muitos, onde 
+o lado “reverso” é muitos-para-um, especifique um relationship() 
+adicional () e conecte os dois usando o parâmetro 
+relationship.back_populates. 
+
+class Parent(Base):
+    __tablename__ = 'parent'
+    id = Column(Integer, primary_key=True)
+    children = relationship("Child", back_populates="parent")
+
+class Child(Base):
+    __tablename__ = 'child'
+    id = Column(Integer, primary_key=True)
+    parent_id = Column(Integer, ForeignKey('parent.id'))
+    parent = relationship("Parent", back_populates="children")
